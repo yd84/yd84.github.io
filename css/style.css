@@ -1,5 +1,15 @@
+body {
+    background-color: #ffffff;
+
+    font-family:Helvetica, serif;
+    font-size: 16px;
+    width: 80%;
+    margin:auto;
+}
+
 h1 {
-    background-color: royalblue;
+    color: black;
+    font-family: "PingHei","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
 }
 
 .box1 {
