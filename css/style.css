@@ -1,16 +1,4 @@
-.main-picture {
-    border: 5px black;
-    display:flex;
-    flex-direction: column;
-}
-
-.main-picture img {
-    width: 70%;
-    vertical-align: baseline;
-}
-
-.main-picture p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    text-align:center;
+h1 {
+    color: black;
+    background-color: skyblue;
 }
