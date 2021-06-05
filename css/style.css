@@ -1,65 +1,16 @@
-body {
-    background-color: #ffffff;
-
-    font-family:Helvetica, serif;
-    font-size: 16px;
-    width: 80%;
-    margin: auto;
-}
-
-h1 {
-    text-align: center;
-    color: black;
-    font-family: "PingHei","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
-}
-
-.box1 {
-    width: 80%;
-    margin:auto;
+.main-picture {
     border: 5px black;
+    display:flex;
+    flex-direction: column;
 }
 
-.box2 button {
-    background-color: salmon;
-    padding: 10px 15px;
-}
-
-button:hover {
-    background-color: seagreen;
-}
-
-button:active {
-    background-color: snow;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: grey;
-}
-
-a:visited {
-    color: red;
-}
-
-
-.block {
-    margin: 15px 0;
-    float:left;
-    width: 33.3%;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-#main-block {
-    float: left;
+.main-picture img {
     width: 70%;
+    vertical-align: baseline;
 }
 
-#side-bar {
-    float: right;
-    width: 30%
+.main-picture p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align:center;
 }
