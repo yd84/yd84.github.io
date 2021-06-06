@@ -32,6 +32,8 @@
     <audio controls>
         对不起，你的浏览器不支持音频播放，请重新更改其他浏览器！
         <source src="./source/S.H.E - 中国话.mp3">
+        <source src="./source/S.H.E - 中国话.ogg">
+        <embed src="./source/S.H.E - 中国话.mp3" type="audio/mp3" width="300">
     </audio>
     <br>
     <p>
@@ -85,6 +87,13 @@
     </p>
     <br>
     <br>
+        <!-- 使用video tag向网页中引入一个视频资源 -->
+        <!-- embed同样是为了兼容低版本的浏览器 -->
+        <video controls>
+            <source src="./source/kl7aeg.MP4">
+            <embed src="./source/kl7aeg.MP4" type="video/mp4">
+        </video>
 
+        <!-- 现实的开发中，一般不会把视频放在本地文件了，所以视频都是线上云盘里，主要是为了减少缓存 -->
 </body>
 </html>
