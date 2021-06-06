@@ -1,3 +1,13 @@
 /* img {
     width:80%;
 } */
+
+div::before {
+    content: "abc";
+    color: red;
+}
+
+div::after {
+        content: "def";
+        color: blue;
+}
