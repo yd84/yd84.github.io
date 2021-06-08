@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Freight;
+    src: url("font source/Freight\ Text\ Book.otf");
+}
+
+.royal1 {
+    font-family: "Freight";
+    letter-spacing: 0.6px;
+}
