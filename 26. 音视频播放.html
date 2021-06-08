@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>音视频播放</title>
+</head>
+<body>
+    <br>
+    <br>
+    <a href="./index.html">HOME</a>
+    <br>
+    <br>
+    <!-- audio tag就是用来向页面中引入一个外部的音频元素！属于替换元素！
+    音视频引入是默认情况下不允许用户自己控制开始播放或者停止！
+
+    加了controls属性是：让用户自己播放与暂停！
+    加了autoplay属性则是自动播放！
+    如果设置了auto则音乐在打开页面时自动播放， 但是目前来说大部分浏览器不会自动播放！
+    加了loop属性： 表示是否循环播放！
+    -->
+
+    <!-- <audio src="./source/S.H.E - 中国话.mp3" controls autoplay>S.H.E - 中国话.mp3</audio> -->
+    <!-- <audio src="./source/S.H.E - 中国话.mp3" controls autoplay loop>S.H.E - 中国话.mp3</audio> -->
+
+    <audio src="./source/S.H.E - 中国话.mp3" controls >S.H.E - 中国话.mp3</audio>
+
+    <!-- 下面的编写，主要是为了全面的浏览器兼容， 用户端比较友好 -->
+    <br>
+    <p>下面是兼容模式！</p>
+    <audio controls>
+        对不起，你的浏览器不支持音频播放，请重新更改其他浏览器！
+        <source src="./source/S.H.E - 中国话.mp3">
+        <source src="./source/S.H.E - 中国话.ogg">
+        <embed src="./source/S.H.E - 中国话.mp3" type="audio/mp3" width="300">
+    </audio>
+    <br>
+    <p>
+        扁担宽 板凳长
+        <br>
+        扁担想绑在板凳上
+        <br>
+        扁担宽 板凳长
+        <br>
+        扁担想绑在板凳上
+        <br>
+        <br>
+        伦敦玛莉莲 买了件旗袍送妈妈<br>
+        莫斯科的夫司基 爱上牛肉面疙瘩<br>
+        各种颜色的皮肤 各种颜色的头发<br>
+        嘴里念的说的开始流行中国话 (中国话）<br>
+        多少年我们苦练英文发音和文法<br>
+        这几年换他们卷着舌头学平上去入的变化<br>
+        平平仄仄平平仄<br>
+        好聪明的中国人 好优美的中国话<br>
+        <br>
+        扁担宽 板凳长<br>
+        扁担想绑在板凳上<br>
+        板凳不让扁担绑在板凳上<br>
+        扁担偏要绑在板凳上<br>
+        板凳偏偏不让扁担绑在那板凳上<br>
+        到底扁担宽还是板凳长<br>
+        <br>
+        哥哥弟弟坡前坐<br>
+        坡上卧著一只鹅<br>
+        坡下流著一条河<br>
+        哥哥说 宽宽的河<br>
+        弟弟说 白白的鹅<br>
+        鹅要过河 河要渡鹅<br>
+        不知是那鹅过河<br>
+        <br>
+        全世界都在学中国话<br>
+        孔夫子的话 越来越国际化<br>
+        全世界都在讲中国话<br>
+        我们说的话 让世界都认真听话<br>
+        <br>
+        纽约苏珊娜 开了间禅风Lounge Bar <br>
+        柏林来的沃夫冈 拿胡琴配着电吉他<br>
+        各种颜色的皮肤 各种颜色的头发<br>
+        嘴里念的说的开始流行中国话<br>
+        少年我们苦练英文发音和文法<br>
+        这几年换他们卷著舌头学平上去入的变化<br>
+        平平仄仄平平仄<br>
+        好聪明的中国人 好优美的中国话<br>
+        <br>
+    </p>
+    <br>
+    <br>
+        <!-- 使用video tag向网页中引入一个视频资源 -->
+        <!-- embed同样是为了兼容低版本的浏览器 -->
+        <video controls>
+            <source src="./source/kl7aeg.MP4">
+            <embed src="./source/kl7aeg.MP4" type="video/mp4">
+        </video>
+<br>
+<br>
+<br>
+        <!-- 现实的开发中，一般不会把视频放在本地文件了，所以视频都是线上云盘里，主要是为了减少缓存 -->
+        
+        <!-- 下方就是直接链接的线上视频资源 -->
+        <iframe  src="//player.bilibili.com/player.html?aid=244671408&bvid=BV1rv411C7u7&cid=239050807&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="500"></iframe>
+
+        <br>
+        <br>
+        <br>
+
+</body>
+</html>
